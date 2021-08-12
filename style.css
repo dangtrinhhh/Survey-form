@@ -1,0 +1,79 @@
+#body-section {
+    background-color: #000;
+}
+
+#header-section {
+    padding-top: 20px;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #ccc;
+}
+
+.description {
+    font-size: 20px;
+    font-weight: 100;
+    padding-bottom: 40px;
+    padding-top: -60px;
+}
+
+#survey-form {
+    width: 40%;
+    background-color: pink;
+    padding: 40px 40px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+#name,
+#email,
+#number,
+#dropdown {
+    display: block;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+label {
+    display: flex;
+    margin-top: 10px;
+}
+
+.input-radio,
+.input-checkbox {
+    font-size: inherit;
+    transform: scale(1.5);
+    margin-right: 10px;
+}
+
+.comments {
+    width: 100%;
+    height: 50px;
+}
+
+input,
+button,
+select,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.input-textarea {
+    min-height: 120px;
+    width: 100%;
+    resize: vertical;
+}
+
+#submit:hover {
+    cursor: pointer;
+    background-color: #ccc;
+}
